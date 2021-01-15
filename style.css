@@ -1,0 +1,56 @@
+.btn{
+    background: linear-gradient(to bottom, #A4BC46, #85A019);
+    padding: 0.9rem 1.45rem!important;
+    border: none;
+    border-radius: 6px;
+}
+.btn:hover{
+    background: linear-gradient(to top, #A4BC46, #85A019);
+}
+h1{
+    letter-spacing: -2px;
+}
+header{
+    background-color: #FFFBF0;
+}
+.img-container{
+    border-radius: 20px;
+    background-color: #F1F1F1;
+}
+.card{
+    height: 100%!important;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px lightgray, -5px -5px 8px lightgray;
+}
+.card-body{
+    padding: 0.5rem 1.2rem;
+}
+.card-footer{
+    border: none;
+    background-color: white!important;
+    border-radius: 20px!important;
+}
+.card-footer .col-7{
+    padding: 0!important;
+}
+.service-card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px lightgray, -5px -5px 8px lightgray;
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+@media only screen and (max-width: 767px){
+    .logo{
+        width: 100%!important;
+    }
+}
+@media only screen and (min-width: 768px){
+    .logo{
+        width: 68%!important;
+    }
+    h1{
+        font-size: 52px;
+    }
+}

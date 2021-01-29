@@ -43,16 +43,3 @@ header{
 }
 
 
-@media only screen and (max-width: 767px){
-    .logo{
-        width: 100%!important;
-    }
-}
-@media only screen and (min-width: 768px){
-    .logo{
-        width: 68%!important;
-    }
-    h1{
-        font-size: 52px;
-    }
-}
